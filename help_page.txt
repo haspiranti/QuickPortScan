@@ -1,0 +1,15 @@
+
+QuickPortScan 1.0: a simple port scanner made to scan and detect open ports on a host.
+Created by Hayden Aspiranti and is still a work in progress.
+
+Usage
+  qps [options] <destination>
+
+Options:
+  <destination>     dns name or ip address
+  -ap               all ports ------------- scans all 65535 ports of the host
+  -f                fast scan ------------- uses threading to scan faster
+  -h                help page ------------- print help page and exit
+  -p                scan select ports ----- scans selected ports of the host
+  -s                slow scan ------------- slows down scan to decrease detectability
+  -v                verbose mode ---------- displays open ports immediately while scanning
